@@ -1,0 +1,79 @@
+[System]
+Name='generatedNormalizedFIS'
+Type='mamdani'
+Version=2.0
+NumInputs=3
+NumOutputs=1
+NumRules=9
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='in1'
+Range=[0 1]
+NumMFs=9
+MF1='in1cluster1':'gaussmf',[0.290865004290806 0.444804760155129]
+MF2='in1cluster2':'gaussmf',[0.309891923173269 0.599896123037334]
+MF3='in1cluster3':'gaussmf',[0.255884898032795 0.747860780620813]
+MF4='in1cluster4':'gaussmf',[0.276978524788073 0.439585821304366]
+MF5='in1cluster5':'gaussmf',[0.263712161029739 0.604933202761372]
+MF6='in1cluster6':'gaussmf',[0.200882502834991 0.279412732632008]
+MF7='in1cluster7':'gaussmf',[0.247086436242897 0.515721918755765]
+MF8='in1cluster8':'gaussmf',[0.20439801950104 0.868422260370646]
+MF9='in1cluster9':'gaussmf',[0.227916658901807 0.42579136575359]
+
+[Input2]
+Name='in2'
+Range=[18 70]
+NumMFs=9
+MF1='in2cluster1':'gaussmf',[9.61484038511172 65.1205891995472]
+MF2='in2cluster2':'gaussmf',[5.20979212122001 29.3874595694706]
+MF3='in2cluster3':'gaussmf',[6.08031738985624 48.9197175860552]
+MF4='in2cluster4':'gaussmf',[6.24873640584242 23.9850988180391]
+MF5='in2cluster5':'gaussmf',[4.75857990555662 30.6660672473625]
+MF6='in2cluster6':'gaussmf',[5.80328078288512 23.5131631828356]
+MF7='in2cluster7':'gaussmf',[4.77961191876035 40.6240895002141]
+MF8='in2cluster8':'gaussmf',[5.01906534076776 31.3873527881149]
+MF9='in2cluster9':'gaussmf',[6.89627099379824 56.493029915178]
+
+[Input3]
+Name='in3'
+Range=[1 98]
+NumMFs=9
+MF1='in3cluster1':'gaussmf',[7.56041688459525 51.1431190259674]
+MF2='in3cluster2':'gaussmf',[10.4478440356646 73.4094329848782]
+MF3='in3cluster3':'gaussmf',[7.9467319095726 46.6665971866994]
+MF4='in3cluster4':'gaussmf',[7.98807091987798 53.5682583114259]
+MF5='in3cluster5':'gaussmf',[14.1111255097118 90.4694740699018]
+MF6='in3cluster6':'gaussmf',[13.7171792449518 7.42504170331426]
+MF7='in3cluster7':'gaussmf',[12.1907119595506 16.2488783331195]
+MF8='in3cluster8':'gaussmf',[8.36743794576619 40.5314414818471]
+MF9='in3cluster9':'gaussmf',[13.0373374527721 11.4337786097753]
+
+[Output1]
+Name='out1'
+Range=[0 1]
+NumMFs=9
+MF1='out1cluster1':'gaussmf',[0.0757309301157638 0.328451579279108]
+MF2='out1cluster2':'gaussmf',[0.121039916401211 0.364007622367806]
+MF3='out1cluster3':'gaussmf',[0.0774730198575687 0.328822769183079]
+MF4='out1cluster4':'gaussmf',[0.0750734253240218 0.325419594263907]
+MF5='out1cluster5':'gaussmf',[0.0975586585746512 0.499057992365382]
+MF6='out1cluster6':'gaussmf',[0.0728478013338027 0.401284296306286]
+MF7='out1cluster7':'gaussmf',[0.103830723335626 0.499591222440405]
+MF8='out1cluster8':'gaussmf',[0.100361414901766 0.267561812941049]
+MF9='out1cluster9':'gaussmf',[0.0854630132798666 0.362974366158041]
+
+[Rules]
+1 1 1, 1 (1) : 1
+2 2 2, 2 (1) : 1
+3 3 3, 3 (1) : 1
+4 4 4, 4 (1) : 1
+5 5 5, 5 (1) : 1
+6 6 6, 6 (1) : 1
+7 7 7, 7 (1) : 1
+8 8 8, 8 (1) : 1
+9 9 9, 9 (1) : 1
